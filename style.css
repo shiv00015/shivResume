@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    
+}
+/* Write CSS code below */
+
+body{
+    background-color: brown;
+}
+.main-content{
+    display: flex;
+    flex-direction: row;
+    margin: 40px 300px;
+}
+.left-section{
+    display: flex;
+    flex-direction: column;
+    background-color: #2b2a33;
+    color: wheat;
+}
+
+.left-content{
+    padding: 1rem;
+}
+.right-section{
+    display: flex;
+    flex-direction: column;
+    background-color: wheat;
+    
+}
+.profile-image{
+    display: block;
+    margin: auto;
+    border: 5px white solid;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+    text-transform: uppercase;
+}
+.designation{
+    font-size: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.social-media .icon img{
+    margin-top: 3rem;
+    height: 30px;
+    width: 30px;
+}
+.personal-details{
+    padding-left: 20px;
+    margin-top:1rem;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    padding: 1rem 0.5rem;
+    margin-top: 3rem;
+}
+.skill-name{
+    font-size: 0.65rem;
+    text-align: left;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px white solid;
+    height: 4px;
+    background-color: white;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-main-content .col{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem;
+    letter-spacing: 1px;
+}
+h3{
+    margin-top: 1rem;
+}
+.about .para{
+    padding: 0.5rem;
+}
+@media screen and (max-width: 673px){
+    .main-content{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        max-width: 100%;
+    }
+    /* .right-section{
+        max-width: 100%;
+    } */
+    /* .left-section{
+        max-width: 100%;
+    } */
+}
